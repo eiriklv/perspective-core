@@ -1,2 +1,2 @@
-perspective-errors
+perspective-core
 ==================
