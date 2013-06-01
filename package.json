@@ -7,7 +7,8 @@
     "url": "git://github.com/perspective/perspective-core.git"
   },
   "dependencies": {
-    "underscore": "*"
+    "underscore": "*",
+    "bunyan": "~0.21.3"
   },
   "devDependencies": {
     "mocha": "*",
