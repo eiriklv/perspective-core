@@ -9,4 +9,3 @@ module.exports = {
   validation: validation,
   logger: logger
 };
-;
