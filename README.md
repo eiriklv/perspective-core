@@ -1,2 +1,8 @@
 perspective-core
 ==================
+
+
+License
+-------
+
+MIT
