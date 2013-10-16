@@ -1,11 +1,21 @@
 {
   "name": "perspective-core",
   "version": "0.0.1",
-  "licence": "MIT",
+  "description": "",
+  "bugs": {
+    "url": "http://github.com/perspective/perspective-core/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/perspective/perspective-core.git"
   },
+  "contributors":[
+    "Hans Magnus Inderberg <hinderberg@gmail.com> (http://hinderberg.no/)",
+    "Mads Mobœk <> ()"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "index.js",
   "dependencies": {
     "underscore": "*",
     "bunyan": "~0.21.3"
@@ -14,6 +24,5 @@
     "mocha": "*",
     "should": "*",
     "sinon": "*"
-  },
-  "main": "./bin/index"
+  }
 }
