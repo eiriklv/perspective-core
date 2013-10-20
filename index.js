@@ -2,12 +2,12 @@ var errors = require('./lib/errors');
 var validation = require('./lib/validation');
 var logger = require('./lib/logger');
 var Model = require('./lib/model');
-var ws = require('./lib/ws');
+var webSocketHelper = require('./lib/webSocketHelper');
 
 module.exports = {
   errors: errors,
   Model: Model,
   validation: validation,
   logger: logger,
-  ws: ws
+  webSocketHelper: webSocketHelper
 };
