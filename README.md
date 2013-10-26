@@ -1,7 +1,6 @@
 perspective-core
 ==================
 
-
 License
 -------
 
