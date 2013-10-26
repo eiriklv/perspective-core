@@ -1,13 +1,21 @@
-var errors = require('./lib/errors');
-var validation = require('./lib/validation');
-var logger = require('./lib/logger');
-var Model = require('./lib/model');
-var webSocketHelper = require('./lib/webSocketHelper');
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD. Register as an anonymous module.
+    define(function(require) {
+      factory(require, require('exports'), require('module'))
+    });
+  } else if (typeof exports === 'object') {
+    // CommonJS
+    factory(require, exports, module);
+  }
+}(function (require, exports, module) {
+	
+	var validation = require('./lib/validation');
+	var Model = require('./lib/model');
 
-module.exports = {
-  errors: errors,
-  Model: Model,
-  validation: validation,
-  logger: logger,
-  webSocketHelper: webSocketHelper
-};
+	module.exports = {
+	  Model: Model,
+	  validation: validation
+	};
+
+}));
