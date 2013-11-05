@@ -17,12 +17,12 @@
   "readmeFilename": "README.md",
   "main": "index.js",
   "dependencies": {
-    "underscore": "*",
+    "underscore": "~1.5.2",
     "bunyan": "~0.21.3"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "sinon": "*"
+    "mocha": "~1.14.0",
+    "should": "~2.0.2",
+    "sinon": "~1.7.3"
   }
 }
