@@ -17,8 +17,7 @@
   "readmeFilename": "README.md",
   "main": "index.js",
   "dependencies": {
-    "underscore": "~1.5.2",
-    "bunyan": "~0.21.3"
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "mocha": "~1.14.0",
